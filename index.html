@@ -26,11 +26,21 @@
       flex-wrap: wrap;
     }
     header img {
-      height: 60px;
+      height: 80px;
+      animation: pulseLogo 2s infinite ease-in-out;
+      transition: transform 0.3s;
+    }
+    header img:hover {
+      transform: scale(1.1);
+    }
+    @keyframes pulseLogo {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
     }
     header h1 {
       margin: 10px 0;
-      font-size: 2rem;
+      font-size: 2.2rem;
       background: linear-gradient(to right, #005cbf, #00bcd4);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -192,28 +202,28 @@
         <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&fit=crop&w=800&q=80">
         <div class="card-content">
           <h3>Posts para Redes Sociais</h3>
-          <p>Conteúdos criativos para atrair clientes e engajar seguidores.</p>
+          <p>Conteúdo visual e estratégico para atrair, engajar e fidelizar clientes nas redes sociais.</p>
         </div>
       </div>
       <div class="card">
         <img src="https://i.postimg.cc/zXyWFC74/01efa9ca-33d7-445b-972a-1054b338b860.jpg">
         <div class="card-content">
           <h3>Criação e Modernização de Logos</h3>
-          <p>Criação ou modernização da identidade visual da sua empresa.</p>
+          <p>Transforme a imagem da sua marca com uma identidade visual moderna e impactante.</p>
         </div>
       </div>
       <div class="card">
         <img src="https://i.postimg.cc/QNkd7Hc1/1665589480826.jpg">
         <div class="card-content">
           <h3>Marketing Estratégico</h3>
-          <p>Campanhas, tráfego pago e análise para aumento de vendas.</p>
+          <p>Planejamento e execução de campanhas para gerar resultados e escalar vendas.</p>
         </div>
       </div>
       <div class="card">
         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80">
         <div class="card-content">
           <h3>Websites</h3>
-          <p>Sites bonitos, responsivos e com foco em conversão.</p>
+          <p>Sites profissionais e responsivos que transmitem confiança e geram conversões.</p>
         </div>
       </div>
     </div>
@@ -259,7 +269,7 @@
         <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe?auto=format&fit=crop&w=800&q=80">
         <div class="card-content">
           <h3>Serviço Personalizado</h3>
-          <p>Soluções sob medida</p>
+          <p>Soluções sob medida para sua necessidade específica.</p>
           <a href="https://wa.me/5541995698466" target="_blank">Contratar</a>
         </div>
       </div>
